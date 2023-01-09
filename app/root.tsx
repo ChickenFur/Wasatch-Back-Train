@@ -17,7 +17,7 @@ import tailwindStylesheetUrl from "./styles/tailwind.css";
 import { getUser } from "./session.server";
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Wasatch Back Train" };
 };
 
 export const links: LinksFunction = () => {
