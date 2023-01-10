@@ -29,6 +29,18 @@ export default function Index() {
           </div>
         </div>
 
+        <div>
+          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+            Provide a faster, safer and more efficient means of transportation for Utahn's
+            Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. 
+            With the offset of traffic to the rails lines we can preserver Heber Valley's north fields and other areas.
+            Stimulate economic development. Adding rail lines on the wasatch front has brought in a signifigant amount of ecoomic activity. This line would do the same for the Wasatch Back.
+            Cleaner air. Utah's poisened air is causing increase rates of stroke, dementia, heart disease while reducing lifespan and quality of life.
+            Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.
+          </p>
+        </div>
+    
+
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
@@ -44,7 +56,7 @@ export default function Index() {
               <a
                 key={img.href}
                 href={img.href}
-                className="flex h-600 w-300 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
+                className="flex h-300 w-150 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
               >
                 <img alt={img.alt} src={img.src} />
 
