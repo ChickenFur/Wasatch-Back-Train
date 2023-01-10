@@ -37,7 +37,7 @@ export default function Index() {
         </div>
 
         <div>
-          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+          <div className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
             {
               [
                 {string: "Provide a faster, safer and more efficient means of transportation for Utah residents."},
@@ -49,7 +49,7 @@ export default function Index() {
                 <span>{blurb}</span>
               ))
             }
-          </p>
+          </div>
         </div>
     
 
