@@ -30,14 +30,19 @@ export default function Index() {
         </div>
 
         <div>
-          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-            Provide a faster, safer and more efficient means of transportation for Utahn's
-            Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. 
-            With the offset of traffic to the rails lines we can preserver Heber Valley's north fields and other areas.
-            Stimulate economic development. Adding rail lines on the wasatch front has brought in a signifigant amount of ecoomic activity. This line would do the same for the Wasatch Back.
-            Cleaner air. Utah's poisened air is causing increase rates of stroke, dementia, heart disease while reducing lifespan and quality of life.
-            Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.
-          </p>
+          <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+            {
+              [
+                {string: "Provide a faster, safer and more efficient means of transportation for Utah residents."},
+                {string: "Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic."},
+                {string: "Stimulate economic development."},
+                {string: "Cleaner air. Utah's poisened air is causing increase rates of stroke, dementia, heart disease while reducing lifespan and quality of life."},
+                {string: "Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train."},
+              ].map( (blurb) => (
+                <li>{blurb}</li>
+              ))
+            }
+          </ul>
         </div>
     
 
