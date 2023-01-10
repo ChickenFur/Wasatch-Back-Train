@@ -35,9 +35,17 @@ export default function Index() {
           </p>
 
         </div>
+
+        <div>
+        <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+          <span className="text-2xl">Proposed Routes:</span>    
+          <span className="text-sm">Click to view in google maps.</span>
+        </p>
+
+        </div>
     
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
-          <div className="mt-6 flex flex-wrap justify-center gap-8 columns-3">
+          <div className="justify-center gap-8 columns-3">
             {[
               {
                 src: "./track.jpg",
@@ -70,14 +78,6 @@ export default function Index() {
                   <p>{img.desc}</p>
 
                 </a>
-                <a
-                key={img.href}
-                href={img.href}
-                className="flex justify-center p-1"
-              >
-               <p>{img.desc}</p>
-
-             </a>
              </div>
             ))}
           </div>
