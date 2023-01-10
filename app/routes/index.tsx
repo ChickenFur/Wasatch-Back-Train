@@ -43,7 +43,19 @@ export default function Index() {
                 src: "./track.png",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=1mr4dVI724h9bVAg6QsWq2RrmKK6hiuE&usp=sharing",
-                string: "Option A"
+                desc: "Suface Route"
+              },
+              {
+                src: "./underground.png",
+                alt: "Track",
+                href: "https://www.google.com/maps/d/u/0/edit?mid=1zOfH0sF8q3uHjuxpilfC3wlpoKpbdt0&usp=sharing",
+                desc: "Undergound Route"
+              },
+              {
+                src: "./mixed.png",
+                alt: "Track",
+                href: "https://www.google.com/maps/d/u/0/edit?mid=14hZ3tnqMcfdv5MEzMPI9_fTUHorrsQ0&usp=sharing",
+                desc: "Mixed Ungerground/Surface Route"
               },
               
               
@@ -54,6 +66,7 @@ export default function Index() {
                 className="flex h-200 w-1250 justify-center p-1"
               >
                 <img alt={img.alt} src={img.src} />
+                <p>{img.desc}</p>
 
               </a>
             ))}
