@@ -31,7 +31,7 @@ export default function Index() {
         <div>
 
           <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-            68 miles from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. 
+            A train line 68 miles from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields, stop paving roads and create a better future for ourselves and future residents.
           </p>
 
         </div>
@@ -62,12 +62,20 @@ export default function Index() {
 
         <div>
           <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-              <li>Provide a faster, safer and more efficient means of transportation for Utah residents. </li>
-              <li> Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic.</li>
-              <li> Stimulate economic development.</li>
-              <li> Cleaner air. Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life.</li>
-              <li> Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.</li>
+              <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these three cities. </li>
+              <li> 2. Reduced traffic congestion: Building a train line could help to reduce traffic congestion on the roads.</li>
+              <li> 3. Economic development: A train line could potentially stimulate economic development in the region by making it easier for people and businesses to access the Ski Resorts, Airports and more.</li>
+              <li> 4. Cleaner air: Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life. An electric train is one of the most efficient forms of transportation.</li>
+              <li> 5. Improved quality of life: Spend less time sitting in a car, less time getting to where you want to be.</li>
           </ul>
+        </div>
+
+        <div>
+
+            <p className="mx-auto mt-6 max-w-lg text-center text-sm text-black sm:max-w-3xl">
+              About: I created this website to start a conversation.  My name is Christen Thompson a resident of Heber City who wants to see less traffic, cleaner air and less paved roads covering up our valley and state.
+              I am excited about the future we can create four ourselves and future residents. Contact me at [firstname].[lastname]@gmail.com
+             </p>
         </div>
       </div>
     </main>
