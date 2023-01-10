@@ -37,7 +37,7 @@ export default function Index() {
         </div>
     
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
-          <div className="mt-6 flex flex-wrap justify-center gap-8">
+          <div className="mt-6 flex flex-wrap justify-center gap-8 columns-3">
             {[
               {
                 src: "./track.jpg",
@@ -60,15 +60,25 @@ export default function Index() {
               
               
             ].map((img) => (
-              <a
+              <div class="w-full aspect-square">
+                <a
+                  key={img.href}
+                  href={img.href}
+                  className="flex justify-center p-1"
+                >
+                  <img alt={img.alt} src={img.src} />
+                  <p>{img.desc}</p>
+
+                </a>
+                <a
                 key={img.href}
                 href={img.href}
-                className="flex h-200 w-1250 justify-center p-1"
+                className="flex justify-center p-1"
               >
-                <img alt={img.alt} src={img.src} />
-                <p>{img.desc}</p>
+               <p>{img.desc}</p>
 
-              </a>
+             </a>
+             </div>
             ))}
           </div>
         </div>
