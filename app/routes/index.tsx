@@ -30,7 +30,7 @@ export default function Index() {
         </div>
         <div>
 
-          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
+          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
             68 miles from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. 
           </p>
 
@@ -62,11 +62,11 @@ export default function Index() {
 
         <div>
           <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-               <li>Provide a faster, safer and more efficient means of transportation for Utah residents. </li>
-               <li> Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic.</li>
-               <li> Stimulate economic development.</li>
-               <li> Cleaner air. Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life.</li>
-               <li> Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.</li>
+              <li>Provide a faster, safer and more efficient means of transportation for Utah residents. </li>
+              <li> Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic.</li>
+              <li> Stimulate economic development.</li>
+              <li> Cleaner air. Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life.</li>
+              <li> Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.</li>
           </ul>
         </div>
       </div>
