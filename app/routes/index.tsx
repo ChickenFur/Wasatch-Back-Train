@@ -74,7 +74,7 @@ export default function Index() {
         </div>
 
         <div>
-          <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+          <ul className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
               <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these cities. </li>
               <li> 2. Reduced traffic congestion: Building a train line could help to reduce traffic congestion on the roads.</li>
               <li> 3. Economic development: A train line could potentially stimulate economic development in the region by making it easier for people and businesses to access the ski resorts, airports and more.</li>
