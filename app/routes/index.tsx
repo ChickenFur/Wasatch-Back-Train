@@ -41,7 +41,7 @@ export default function Index() {
                <span>"Provide a faster, safer and more efficient means of transportation for Utah residents." </span>
                <span> "Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic."</span>
                <span> "Stimulate economic development."</span>
-               <span> "Cleaner air. Utah's poisoned air is causing increase rates of stroke, dementia, heart disease while reducing lifespan and quality of life."</span>
+               <span> "Cleaner air. Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life."</span>
                <span> "Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train."</span>
           </div>
         </div>
