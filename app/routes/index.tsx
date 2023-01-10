@@ -35,18 +35,7 @@ export default function Index() {
           </p>
 
         </div>
-
-        <div>
-          <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-               <li>Provide a faster, safer and more efficient means of transportation for Utah residents. </li>
-               <li> Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic.</li>
-               <li> Stimulate economic development.</li>
-               <li> Cleaner air. Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life.</li>
-               <li> Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.</li>
-          </ul>
-        </div>
     
-
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
@@ -62,13 +51,23 @@ export default function Index() {
               <a
                 key={img.href}
                 href={img.href}
-                className="flex h-300 w-150 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
+                className="flex h-200 w-1250 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
               >
                 <img alt={img.alt} src={img.src} />
 
               </a>
             ))}
           </div>
+        </div>
+
+        <div>
+          <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+               <li>Provide a faster, safer and more efficient means of transportation for Utah residents. </li>
+               <li> Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic.</li>
+               <li> Stimulate economic development.</li>
+               <li> Cleaner air. Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life.</li>
+               <li> Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train.</li>
+          </ul>
         </div>
       </div>
     </main>
