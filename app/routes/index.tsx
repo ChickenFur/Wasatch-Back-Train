@@ -39,7 +39,7 @@ export default function Index() {
         <div>
         <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
           <span className="text-2xl">Proposed Routes</span>    
-          <span className="text-sm">(Click to view in google maps.)</span>
+          <span className="text-sm">(click to view in google maps)</span>
         </p>
 
         </div>
@@ -68,7 +68,15 @@ export default function Index() {
               
               
             ].map((img) => (
-              <div class="w-full aspect-square">
+              <div className="w-full aspect-square text-center justify-center">
+                <div> 
+                  <a
+                    key={img.href}
+                    href={img.href}
+                    className=""
+                  >{img.desc}
+                  </a>
+                </div>
                 <div>
                   <a
                     key={img.href}
@@ -76,16 +84,6 @@ export default function Index() {
                     className=""
                   >
                     <img alt={img.alt} src={img.src} />
-                  
-
-                  </a>
-                </div>
-                <div> 
-                  <a
-                    key={img.href}
-                    href={img.href}
-                    className=""
-                  >{img.desc}
                   </a>
                 </div>
              </div>
