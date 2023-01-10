@@ -62,7 +62,7 @@ export default function Index() {
 
         <div>
           <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-              <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these three cities. </li>
+              <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these cities. </li>
               <li> 2. Reduced traffic congestion: Building a train line could help to reduce traffic congestion on the roads.</li>
               <li> 3. Economic development: A train line could potentially stimulate economic development in the region by making it easier for people and businesses to access the Ski Resorts, Airports and more.</li>
               <li> 4. Cleaner air: Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life. An electric train is one of the most efficient forms of transportation.</li>
