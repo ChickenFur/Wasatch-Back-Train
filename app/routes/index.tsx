@@ -51,7 +51,7 @@ export default function Index() {
               <a
                 key={img.href}
                 href={img.href}
-                className="flex h-200 w-1250 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
+                className="flex h-200 w-1250 justify-center p-1"
               >
                 <img alt={img.alt} src={img.src} />
 
