@@ -40,19 +40,19 @@ export default function Index() {
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
               {
-                src: "./track.png",
+                src: "./track.jpg",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=1mr4dVI724h9bVAg6QsWq2RrmKK6hiuE&usp=sharing",
                 desc: "Suface Route"
               },
               {
-                src: "./underground.png",
+                src: "./underground.jpg",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=1zOfH0sF8q3uHjuxpilfC3wlpoKpbdt0&usp=sharing",
                 desc: "Undergound Route"
               },
               {
-                src: "./mixed.png",
+                src: "./mixed.jpg",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=14hZ3tnqMcfdv5MEzMPI9_fTUHorrsQ0&usp=sharing",
                 desc: "Mixed Ungerground/Surface Route"
