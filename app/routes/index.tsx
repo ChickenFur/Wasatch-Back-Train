@@ -28,21 +28,28 @@ export default function Index() {
             </div>
           </div>
         </div>
+        <div>
+
+          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
+            68 miles from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. 
+          </p>
+
+        </div>
 
         <div>
-          <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+          <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
             {
               [
                 {string: "Provide a faster, safer and more efficient means of transportation for Utah residents."},
                 {string: "Reduce traffice on our roads. UDOT doesn't need to keep paving over our valleys. Building and expanding roads has been shown to increase traffic."},
                 {string: "Stimulate economic development."},
-                {string: "Cleaner air. Utah's poisened air is causing increase rates of stroke, dementia, heart disease while reducing lifespan and quality of life."},
+                {string: "Cleaner air. Utah's poisoned air is causing increase rates of stroke, dementia, heart disease while reducing lifespan and quality of life."},
                 {string: "Improved Quality of Life: Spend less time sitting in a car, less stress sitting on a train."},
               ].map( (blurb) => (
-                <li>{blurb}</li>
+                <span>{blurb}</span>
               ))
             }
-          </ul>
+          </p>
         </div>
     
 
