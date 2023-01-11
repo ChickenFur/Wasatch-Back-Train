@@ -31,37 +31,68 @@ export default function Index() {
         <div>
 
           <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-            A train line 68 miles from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields, stop creating new roads, more traffic and start to create a better future for ourselves and future residents.
+            A train line from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields. Stop creating new roads and more traffic. Create a better future for ourselves and future residents.
           </p>
+
+        </div>
+
+        <div>
+        <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+          <span className="text-2xl">Proposed Routes</span>    
+          <span className="text-sm">(click to view in google maps)</span>
+        </p>
 
         </div>
     
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
-          <div className="mt-6 flex flex-wrap justify-center gap-8">
+          <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200 rounded-lg">
             {[
               {
                 src: "./track.png",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=1mr4dVI724h9bVAg6QsWq2RrmKK6hiuE&usp=sharing",
-                string: "Option A"
+                desc: "Surface"
+              },
+              {
+                src: "./underground.png",
+                alt: "Track",
+                href: "https://www.google.com/maps/d/u/0/edit?mid=1zOfH0sF8q3uHjuxpilfC3wlpoKpbdt0&usp=sharing",
+                desc: "Underground"
+              },
+              {
+                src: "./mixed.png",
+                alt: "Track",
+                href: "https://www.google.com/maps/d/u/0/edit?mid=14hZ3tnqMcfdv5MEzMPI9_fTUHorrsQ0&usp=sharing",
+                desc: "Mixed"
               },
               
               
             ].map((img) => (
-              <a
-                key={img.href}
-                href={img.href}
-                className="flex h-200 w-1250 justify-center p-1"
-              >
-                <img alt={img.alt} src={img.src} />
-
-              </a>
+              <div className="col-span-4 text-center text-sm">
+                <div> 
+                  <a
+                    key={img.href}
+                    href={img.href}
+                    className=""
+                  >{img.desc}
+                  </a>
+                </div>
+                <div style={{margin: "1rem"}}>
+                  <a
+                    key={img.href}
+                    href={img.href}
+                    className=""
+                  >
+                    <img alt={img.alt} src={img.src} />
+                  </a>
+                </div>
+             </div>
             ))}
           </div>
         </div>
 
         <div>
-          <ul className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+          <ul className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
               <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these cities. </li>
               <li> 2. Reduced traffic congestion: Building a train line could help to reduce traffic congestion on the roads.</li>
               <li> 3. Economic development: A train line could potentially stimulate economic development in the region by making it easier for people and businesses to access the ski resorts, airports and more.</li>
