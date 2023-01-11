@@ -37,7 +37,7 @@ export default function Index() {
         </div>
 
         <div>
-        <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl bg-gray-200">
+        <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
           <span className="text-2xl">Proposed Routes</span>    
           <span className="text-sm">(click to view in google maps)</span>
         </p>
@@ -63,12 +63,12 @@ export default function Index() {
                 src: "./mixed.jpg",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=14hZ3tnqMcfdv5MEzMPI9_fTUHorrsQ0&usp=sharing",
-                desc: "Mixed Ungerground/Surface Route"
+                desc: "Mixed Underground/Surface Route"
               },
               
               
             ].map((img) => (
-              <div className="col-span-4 text-center">
+              <div className="col-span-4 text-center text-sm">
                 <div> 
                   <a
                     key={img.href}
@@ -77,7 +77,7 @@ export default function Index() {
                   >{img.desc}
                   </a>
                 </div>
-                <div styel={{margin: "1rem"}}>
+                <div style={{margin: "1rem"}}>
                   <a
                     key={img.href}
                     href={img.href}
