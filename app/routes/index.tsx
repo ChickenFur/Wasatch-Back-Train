@@ -37,7 +37,7 @@ export default function Index() {
         </div>
 
         <div>
-        <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
+        <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl bg-gray-200">
           <span className="text-2xl">Proposed Routes</span>    
           <span className="text-sm">(click to view in google maps)</span>
         </p>
@@ -45,7 +45,7 @@ export default function Index() {
         </div>
     
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200">
+          <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200 rounded-lg">
             {[
               {
                 src: "./track.jpg",
@@ -68,7 +68,7 @@ export default function Index() {
               
               
             ].map((img) => (
-              <div className="col-span-4">
+              <div className="col-span-4 text-center">
                 <div> 
                   <a
                     key={img.href}
@@ -77,7 +77,7 @@ export default function Index() {
                   >{img.desc}
                   </a>
                 </div>
-                <div>
+                <div styel={{margin: "1rem"}}>
                   <a
                     key={img.href}
                     href={img.href}
