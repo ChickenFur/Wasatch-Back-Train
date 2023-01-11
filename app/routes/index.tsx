@@ -101,6 +101,39 @@ export default function Index() {
           </ul>
         </div>
 
+        <div className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl m-2">
+          <div><p>Sample Bill Text:</p></div>
+          <p>Bill Title: Wasatch Back Train Line Feasibility Study and Implementation Act</p>
+
+            <p>Section 1. Purpose</p>
+
+            <p>The purpose of this act is to authorize the Utah Department of Transportation to conduct a feasibility study for the creation of a train line in the Wasatch Back, connecting Provo at a Front Runner Station to Heber, Park City, down to Salt Lake City, and ending at a TRAX station, and to provide funding for the implementation of the train line if the study finds it to be viable.</p>
+
+            <p>Section 2. Feasibility Study</p>
+
+            <p>(a) The Utah Department of Transportation shall conduct a feasibility study for the creation of a train line in the Wasatch Back, connecting Provo at a Front Runner Station to Heber, Park City, down to Salt Lake City and ending at a TRAX station.</p>
+
+            <p>(b) The feasibility study shall include, but not be limited to, the following elements:</p>
+
+            <p>A thorough analysis of the route and alignment options for the train line, including a consideration of environmental and community impacts. An examination of the potential ridership and revenue for the train line. A cost-benefit analysis of the train line, including construction costs, operating costs, and projected revenue. An assessment of the potential economic benefits and job creation resulting from the train line. (c) The feasibility study shall be completed within 18 months of the effective date of this act.</p>
+
+            <p>Section 3. Implementation</p>
+
+            <p>(a) If the feasibility study finds that the creation of a train line in the Wasatch Back, connecting Provo at a Front Runner Station to Heber, Park City, down to Salt Lake City and ending at a TRAX station is viable, the Utah Department of Transportation shall develop and implement a plan for the construction and operation of the train line.</p>
+
+            <p>(b) The plan for implementation shall include a detailed project schedule, a budget for construction and operation, and a plan for the acquisition of any necessary rights-of-way.</p>
+
+            <p>(c) The Utah Department of Transportation shall provide regular updates to the Legislature on the progress of the implementation plan.</p>
+
+            <p>Section 4. Funding</p>
+
+            <p>(a) The Utah Department of Transportation shall use funds from the state transportation fund for the conduct of the feasibility study and the implementation of the train line, if found viable by the study.</p>
+
+            <p>(b) The Legislature may appropriate additional funds as needed for the conduct of the feasibility study and the implementation of the train line.</p>
+
+            <p>Please Note: This is an example and will have to go through legal review, public hearings and the input of transportation expert, and the state legislature. It might have to go through some changes and adaptations to match the local laws and regulations.</p>
+        </div>
+
         <div>
 
             <p className="mx-auto mt-6 max-w-lg text-center text-sm text-black sm:max-w-3xl">
