@@ -92,17 +92,19 @@ export default function Index() {
         </div>
 
         <div>
+          <p className="text-2xl">Reasons Why:</p>
           <ul className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
               <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these cities. </li>
               <li> 2. Reduced traffic congestion: Building a train line could help to reduce traffic congestion on the roads.</li>
               <li> 3. Economic development: A train line could potentially stimulate economic development in the region by making it easier for people and businesses to access the ski resorts, airports and more.</li>
               <li> 4. Cleaner air: Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life. An electric train is one of the most efficient forms of transportation.</li>
-              <li> 5. Improved quality of life: Spend less time sitting in a car, less time getting to where you want to be.</li>
+              <li> 5. Improved quality of life: Spend less time sitting in and driving a car. Accident rates are much lower on trains.</li>
           </ul>
         </div>
 
         <div className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl m-2">
-          <div><p>Sample Bill Text:</p></div>
+          <div><p className="text-2xl">Sample Bill Text:</p></div>
+          <br></br>
           <p>Bill Title: Wasatch Back Train Line Feasibility Study and Implementation Act</p>
 
             <p>Section 1. Purpose</p>
