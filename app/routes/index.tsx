@@ -45,7 +45,7 @@ export default function Index() {
         </div>
     
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
-          <div className="justify-center gap-8 columns-3xs">
+          <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200">
             {[
               {
                 src: "./track.jpg",
@@ -68,7 +68,7 @@ export default function Index() {
               
               
             ].map((img) => (
-              <div className="w-full aspect-square text-center justify-center">
+              <div className="col-span-4">
                 <div> 
                   <a
                     key={img.href}
