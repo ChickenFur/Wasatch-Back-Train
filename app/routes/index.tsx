@@ -31,7 +31,7 @@ export default function Index() {
         <div>
 
           <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-            A train line 68 miles from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields, stop creating new roads, more traffic and start to create a better future for ourselves and future residents.
+            A train line from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields, stop creating new roads, more traffic and start to create a better future for ourselves and future residents.
           </p>
 
         </div>
@@ -48,22 +48,22 @@ export default function Index() {
           <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200 rounded-lg">
             {[
               {
-                src: "./track.jpg",
+                src: "./track.png",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=1mr4dVI724h9bVAg6QsWq2RrmKK6hiuE&usp=sharing",
-                desc: "Suface Route"
+                desc: "Suface"
               },
               {
-                src: "./underground.jpg",
+                src: "./underground.png",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=1zOfH0sF8q3uHjuxpilfC3wlpoKpbdt0&usp=sharing",
-                desc: "Undergound Route"
+                desc: "Undergound"
               },
               {
-                src: "./mixed.jpg",
+                src: "./mixed.png",
                 alt: "Track",
                 href: "https://www.google.com/maps/d/u/0/edit?mid=14hZ3tnqMcfdv5MEzMPI9_fTUHorrsQ0&usp=sharing",
-                desc: "Mixed Underground/Surface Route"
+                desc: "Mixed"
               },
               
               
