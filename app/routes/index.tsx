@@ -92,13 +92,50 @@ export default function Index() {
         </div>
 
         <div>
+          <div className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
+            <p className="text-2xl">Reasons Why:</p>
+          </div>
           <ul className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
               <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these cities. </li>
               <li> 2. Reduced traffic congestion: Building a train line could help to reduce traffic congestion on the roads.</li>
               <li> 3. Economic development: A train line could potentially stimulate economic development in the region by making it easier for people and businesses to access the ski resorts, airports and more.</li>
               <li> 4. Cleaner air: Utah's poisoned air is causing increased rates of stroke, dementia, and heart disease while reducing lifespan and quality of life. An electric train is one of the most efficient forms of transportation.</li>
-              <li> 5. Improved quality of life: Spend less time sitting in a car, less time getting to where you want to be.</li>
+              <li> 5. Improved quality of life: Spend less time sitting in and driving a car. Accident rates are much lower on trains.</li>
           </ul>
+        </div>
+
+        <div className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl m-2">
+          <div><p className="text-2xl">Sample Bill Text:</p></div>
+          <br></br>
+          <p>Bill Title: Wasatch Back Train Line Feasibility Study and Implementation Act</p>
+
+            <p>Section 1. Purpose</p>
+
+            <p>The purpose of this act is to authorize the Utah Department of Transportation to conduct a feasibility study for the creation of a train line in the Wasatch Back, connecting Provo at a Front Runner Station to Heber, Park City, down to Salt Lake City, and ending at a TRAX station, and to provide funding for the implementation of the train line if the study finds it to be viable.</p>
+
+            <p>Section 2. Feasibility Study</p>
+
+            <p>(a) The Utah Department of Transportation shall conduct a feasibility study for the creation of a train line in the Wasatch Back, connecting Provo at a Front Runner Station to Heber, Park City, down to Salt Lake City and ending at a TRAX station.</p>
+
+            <p>(b) The feasibility study shall include, but not be limited to, the following elements:</p>
+
+            <p>A thorough analysis of the route and alignment options for the train line, including a consideration of environmental and community impacts. An examination of the potential ridership and revenue for the train line. A cost-benefit analysis of the train line, including construction costs, operating costs, and projected revenue. An assessment of the potential economic benefits and job creation resulting from the train line. (c) The feasibility study shall be completed within 18 months of the effective date of this act.</p>
+
+            <p>Section 3. Implementation</p>
+
+            <p>(a) If the feasibility study finds that the creation of a train line in the Wasatch Back, connecting Provo at a Front Runner Station to Heber, Park City, down to Salt Lake City and ending at a TRAX station is viable, the Utah Department of Transportation shall develop and implement a plan for the construction and operation of the train line.</p>
+
+            <p>(b) The plan for implementation shall include a detailed project schedule, a budget for construction and operation, and a plan for the acquisition of any necessary rights-of-way.</p>
+
+            <p>(c) The Utah Department of Transportation shall provide regular updates to the Legislature on the progress of the implementation plan.</p>
+
+            <p>Section 4. Funding</p>
+
+            <p>(a) The Utah Department of Transportation shall use funds from the state transportation fund for the conduct of the feasibility study and the implementation of the train line, if found viable by the study.</p>
+
+            <p>(b) The Legislature may appropriate additional funds as needed for the conduct of the feasibility study and the implementation of the train line.</p>
+
+            <p>Please Note: This is an example and will have to go through legal review, public hearings and the input of transportation expert, and the state legislature. It might have to go through some changes and adaptations to match the local laws and regulations.</p>
         </div>
 
         <div>
