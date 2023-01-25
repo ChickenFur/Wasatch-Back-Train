@@ -34,6 +34,43 @@ export default function Index() {
             A train line from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields. Stop creating new roads and more traffic. Create a better future for ourselves and future residents.
           </p>
 
+         
+
+        </div>
+
+        <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto grid grid-cols-12 ">
+          <a
+            href="https://le.utah.gov/GIS/findDistrict.jsp"
+            className="col-span-5 text-center text-base text-white bg-gray-400 rounded-lg"
+            >
+              <div>
+                <p style={{margin: "1rem"}}> 
+                  Reach out to your Utah state representatives.
+                </p>
+                <p>
+                  Click here to find your state representative's contact info
+                </p>
+              </div>
+            </a>
+          <div className="col-span-2 text-center text-base text-white  rounded-lg">
+            
+          </div>
+            <a
+                    href="https://chng.it/CPMzGKvYKC"
+                    className="col-span-5 text-center text-base text-white bg-gray-400 rounded-lg">
+              <div >
+                <p style={{margin: "1rem"}}> 
+                  Sign the Change.org petition.
+                </p>
+                <p>
+                  Click here to go to the petition.
+                </p>
+              </div>
+            </a>
+
+          </div>
+
         </div>
 
         <div>
