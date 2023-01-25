@@ -40,39 +40,34 @@ export default function Index() {
 
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto grid grid-cols-12 ">
-            <div className="col-span-4 text-center text-base text-white bg-emerald-500 rounded-lg">
-              <div> 
-                
+          <a
+            href="https://le.utah.gov/GIS/findDistrict.jsp"
+            className=""
+            >
+              <div className="col-span-4 text-center text-base text-white bg-emerald-500 rounded-lg">
+                <p style={{margin: "1rem"}}> 
+                  Reach out to your Utah state representatives.
+                </p>
                 <p>
-                  <a
-                    href="https://le.utah.gov/GIS/findDistrict.jsp"
-                    className=""
-                  >
-                  <p style={{margin: "1rem"}}> 
-                    Reach out to your Utah state representatives.
-                  </p>
-                    Click here to find your state representative's contact info
-                  </a>
+                  Click here to find your state representative's contact info
                 </p>
               </div>
-            </div>
+            </a>
             <div className="col-span-4 text-center text-sm">
 
             </div>
-            <div className="col-span-4 text-center text-basetext-white bg-emerald-500 rounded-lg">
-              <div> 
+            <a
+                    href="https://chng.it/CPMzGKvYKC"
+            className="">
+              <div className="col-span-4 text-center text-base text-white bg-emerald-500 rounded-lg">
                 <p style={{margin: "1rem"}}> 
                   Sign the Change.org petition.
                 </p>
                 <p>
-                  <a
-                    href="https://chng.it/CPMzGKvYKC"
-                    className="">
-                      Click here to go to the petition.
-                  </a>
+                  Click here to go to the petition.
                 </p>
               </div>
-            </div>
+            </a>
 
           </div>
 
@@ -87,7 +82,7 @@ export default function Index() {
         </div>
     
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200 rounded-lg">
+          <div className="max-w-7xl mx-auto grid grid-cols-12 bg-emerald-500 rounded-lg">
             {[
               {
                 src: "./track.png",
