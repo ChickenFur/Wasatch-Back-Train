@@ -42,9 +42,9 @@ export default function Index() {
           <div className="max-w-7xl mx-auto grid grid-cols-12 ">
           <a
             href="https://le.utah.gov/GIS/findDistrict.jsp"
-            className="col-span-5 text-center text-base text-white bg-gray-200 rounded-lg"
+            className="col-span-5 text-center text-base text-white bg-gray-400 rounded-lg"
             >
-              <div className="col-span-5 text-center text-base text-white bg-gray-200 rounded-lg">
+              <div>
                 <p style={{margin: "1rem"}}> 
                   Reach out to your Utah state representatives.
                 </p>
@@ -53,12 +53,12 @@ export default function Index() {
                 </p>
               </div>
             </a>
-          <div className="col-span-1 text-center text-base text-white bg-gray-200 rounded-lg">
+          <div className="col-span-2 text-center text-base text-white  rounded-lg">
             
           </div>
             <a
                     href="https://chng.it/CPMzGKvYKC"
-                    className="col-span-5 text-center text-base text-white bg-gray-200 rounded-lg">
+                    className="col-span-5 text-center text-base text-white bg-gray-400 rounded-lg">
               <div >
                 <p style={{margin: "1rem"}}> 
                   Sign the Change.org petition.
