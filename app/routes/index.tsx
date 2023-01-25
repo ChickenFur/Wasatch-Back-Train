@@ -49,7 +49,7 @@ export default function Index() {
                   <a
                     href="https://le.utah.gov/GIS/findDistrict.jsp"
                     className=""
-                  >Click here to find your state representative's contact info>
+                  >Click here to find your state representative's contact info
                   </a>
                 </p>
               </div>
