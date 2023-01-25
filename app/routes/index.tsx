@@ -42,7 +42,7 @@ export default function Index() {
           <div className="max-w-7xl mx-auto grid grid-cols-12 bg-gray-200 rounded-lg">
             <div className="col-span-6 text-center text-sm">
               <div> 
-                <p style={{margin: 1rem}}> 
+                <p style={{margin: "1rem"}}> 
                   Reach out to your Utah state representatives.
                 </p>
                 <p>
@@ -56,7 +56,7 @@ export default function Index() {
             </div>
             <div className="col-span-6 text-center text-sm">
               <div> 
-                <p style={{margin: 1rem}}> 
+                <p style={{margin: "1rem"}}> 
                   Sign the Change.org petition.
                 </p>
                 <p>
