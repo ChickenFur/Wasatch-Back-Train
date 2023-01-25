@@ -54,6 +54,20 @@ export default function Index() {
                 </p>
               </div>
             </div>
+            <div className="col-span-6 text-center text-sm">
+              <div> 
+                <p style={{margin: 1rem}}> 
+                  Sign the Change.org petition.
+                </p>
+                <p>
+                  <a
+                    href="https://chng.it/CPMzGKvYKC"
+                    className="">
+                      Click here to go to the petition.
+                  </a>
+                </p>
+              </div>
+            </div>
 
           </div>
 
