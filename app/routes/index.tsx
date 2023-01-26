@@ -179,7 +179,7 @@ export default function Index() {
 
             <p className="mx-auto mt-6 max-w-lg text-center text-sm text-black sm:max-w-3xl">
               About: I created this website to start a conversation.  My name is Christen Thompson a resident of Heber City who wants to see less traffic, cleaner air and less paved roads covering up our valley and state.
-              I am excited about the future we can create for ourselves and future residents. Contact me at [firstname].[lastname]@gmail.com
+              I am excited about the future we can create for ourselves and future residents. Contact me at info@wasatchbacktrain.org
              </p>
         </div>
       </div>
