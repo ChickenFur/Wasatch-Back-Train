@@ -4,7 +4,7 @@ import { useOptionalUser } from "~/utils";
 export default function Index() {
   const user = useOptionalUser();
   return (
-    <main className="relative min-h-screen bg-white sm:flex sm:items-center sm:justify-center mt-1">
+    <main className="relative min-h-screen bg-white sm:flex sm:items-center sm:justify-center mt-1" style={{margin: "1rem"}}>
       <div className="relative sm:pb-16 sm:pt-8">
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
@@ -130,7 +130,7 @@ export default function Index() {
 
         <div>
           <div className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
-            <p className="text-2xl">Reasons Why:</p>
+            <p className="text-2xl">Why:</p>
           </div>
           <ul className="mx-auto mt-6 max-w-lg text-left text-xl text-black sm:max-w-3xl">
               <li> 1. Improved transportation: A train line could provide a faster and more efficient means of transportation for people and goods between these cities. </li>
