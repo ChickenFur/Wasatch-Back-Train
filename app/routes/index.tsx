@@ -31,7 +31,7 @@ export default function Index() {
         <div>
 
           <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-            A train line from Front Runner on 600 S in Provo to Heber, Park City, and ending at the Red Line at Univeristy of Utah. Save open space like the north fields. Stop creating new roads and more traffic. Create a better future for ourselves and future residents.
+            A train line from Front Runner in Orem/Provo to Heber, Park City, down Parleys and looping back to Front Runner at the reimagined Rio Grande Station in Salt Lake City (see <a href="https://riograndeplansaltlakecity.org">https://riograndeplansaltlakecity.org</a>). Save open space like the north fields. Stop creating new roads and more traffic. Create a better future for ourselves and future residents.
           </p>
 
          
