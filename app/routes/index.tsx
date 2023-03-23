@@ -75,7 +75,7 @@ export default function Index() {
 
         <div>
         <p className="mx-auto mt-6 max-w-lg text-center text-xl text-black sm:max-w-3xl">
-          <span className="text-2xl">Possible Routes</span>    
+          <span className="text-2xl">Some Possible Routes</span>    
           <span className="text-sm">(click to view in google maps)</span>
         </p>
 
